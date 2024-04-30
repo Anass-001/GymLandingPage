@@ -1,0 +1,291 @@
+
+.work-sans-light {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto; /* Le support pour cette propriété peut varier selon les navigateurs */
+  font-weight: 300; /* Poids de la police : 100 (plus mince) à 900 (plus gras) */
+  font-style: normal; /* Style de la police : normal, italic, oblique */
+}
+.logo {
+    background-color: bisque;
+}
+
+.zoom-page {
+    zoom: 150%; /* Modifier la valeur pour ajuster le niveau de zoom */
+  }
+  
+  /* Styles pour les éléments à l'intérieur de la zone zoomée */
+  .zoom-page p, 
+  .zoom-page h1, 
+  .zoom-page ul {
+    font-size: 1em;
+}
+
+
+.header {
+
+    padding: 25px;
+     
+}
+.nav-link {
+   font-size: 19px;
+    padding-left: 15px;
+    align-items: center;
+    padding-left: 30px;
+    
+
+}
+/* Style de base pour les liens */
+a {
+    color: #4CAF4F(14, 14, 44); /* Couleur du texte du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    margin: 0; /* Supprime la marge autour des liens */
+}
+
+/* Style du lien au survol */
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Style du lien visité */
+a:visited {
+    color: rgb(0, 0, 0); 
+
+}
+.RN{
+    font-size: 19px;
+    padding-left: 45px;
+    color: rgb(0, 0, 0); /* Couleur du texte du lien */
+    
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    padding: 5px 15px; /* Ajoute un espace autour du lien */
+    background-color:#4CAF4F ; /* Couleur du rectangle */
+    color: white; /* Couleur du texte du lien */
+    display: inline-block;/* Pour que le contour entoure correctement le lien */
+    margin-left: 15px
+}
+.homeLogo{
+
+margin-left: 275px;
+
+
+}
+.hometext{
+
+    margin-bottom: 200px;
+}
+.container {
+    overflow: auto;
+    background-color: rgb(233, 233, 233);
+     /* Pour que la hauteur s'adapte au contenu */
+}
+
+.text {
+    float: left; /* Le texte sera flotté à gauche */
+    width: 33%; /* Ajustez la largeur selon vos besoins */
+    color: #4CAF4F;
+    margin-left: 10px;
+}
+
+.page {
+    margin-left: 40%; /* Pour laisser un espace entre le texte et la page */
+    /* Ajoutez d'autres styles pour votre page si nécessaire */
+}
+.body{
+margin-left: 20%;
+
+}
+.bodylogo{
+    margin-left: 5%;
+}
+.textbody{
+    font-size: smaller;
+    margin-left: 15% ;
+
+}
+.body2{
+    margin-left: 15%;
+}
+.ia{
+    margin-left: 19%;
+}
+.textbody2{
+    font-size: smaller;
+    margin-left: 20%;
+}
+ .img1{
+    margin-left: 3%;
+ }
+.img2{
+    margin-left: 6%;
+}
+.container2 {
+    overflow: auto; /* Pour que la hauteur s'adapte au contenu */
+}
+
+.image2 {
+    
+    margin-left: 5%; 
+}
+
+.text2 {
+    overflow: hidden;
+   margin-top:-17%;
+   margin-left: 22%;
+}
+    .link2{
+        margin-top:-17%;
+        margin-left: 0px;
+        font-size: 19px;
+    padding-left: 45px;
+    color: rgb(0, 0, 0); /* Couleur du texte du lien */
+    
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    padding: 5px 15px; /* Ajoute un espace autour du lien */
+    background-color:#4CAF4F ; /* Couleur du rectangle */
+    color: white; /* Couleur du texte du lien */
+    display: inline-block;/* Pour que le contour entoure correctement le lien */
+    
+    }
+    .container3 {
+        margin-top: 2px;
+        overflow: auto;
+        background-color: rgb(232, 232, 232); /* Pour que la hauteur s'adapte au contenu */
+    }
+    
+    .image3 {
+        margin-left: 30%; /* Marge à droite pour séparer l'image du texte */
+       margin-top: 2%;
+    width: 10%;
+        
+    }
+    
+    .text3 {
+margin-top: -10%; 
+margin-left: 5%;   }
+    
+
+.container4 {
+    overflow: auto; 
+}
+
+.image4 {
+    
+    margin-left: 10px; 
+}
+
+.text4 {
+    margin-left: 20%; 
+    margin-top: -16%;
+}
+.link4{
+
+    margin-top:-10%;
+    margin-left: 20%;
+    font-size: 19px;
+padding-left: 45px;
+color: rgb(0, 0, 0); /* Couleur du texte du lien */
+
+text-decoration: none; /* Supprime le soulignement par défaut */
+padding: 5px 15px; /* Ajoute un espace autour du lien */
+background-color:#4CAF4F ; /* Couleur du rectangle */
+color: white; /* Couleur du texte du lien */
+display: inline-block;
+
+}
+
+
+.container5 {
+    overflow: auto; 
+    background-color: rgb(234, 234, 234);
+}
+
+.image5 {
+    float: left; 
+    margin-right: 10px; 
+}
+
+.text5 {
+    
+    overflow: hidden; 
+}
+.link5{
+margin-top: -33px;
+    margin-left: 40%;
+    
+}
+.container6 {
+    overflow: auto; 
+     
+}
+.text6 {
+
+margin-left: 10%;
+text-decoration-line: center;
+}
+.image6{
+margin-left: 1%;
+
+}
+
+.footer1{
+    overflow: auto; 
+    background-color: rgb(234, 234, 234);
+}
+.textfooter1{
+    margin-left: 17%;
+}
+.linkfooter{
+margin-left: 22%;
+text-decoration: none; /* Supprime le soulignement par défaut */
+padding: 5px 15px; /* Ajoute un espace autour du lien */
+background-color:#4CAF4F ; /* Couleur du rectangle */
+color: white; /* Couleur du texte du lien */
+display: inline-block;
+
+}
+.footer2{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 10px;
+color: white;
+    background-color: #263238;
+    overflow: auto;
+    z-index: 999;
+    top: 50px; /* Position verticale à 50px du haut */
+            left: 50px; /* Position horizontale à 50px de la gauche */
+            
+            padding: 10px;
+    
+
+}
+.logofooter{
+    
+    font-size: larger;
+    z-index: 1;
+    margin-left: 5px;
+}
+.socialmedia{
+    color: white;
+    margin-left:5px;
+}
+.ketbatahtlogo{
+    font-size: x-small;
+    margin-left: 5px;
+}
+.list1{
+
+    margin-left: 22%;
+    margin-top: -16%;
+}
+    .list2{
+
+        margin-top: -30%;
+        margin-left: 40%;
+    }
+  .formadresse{
+    margin-left: 60%;
+    margin-top: -30%;
+  }
